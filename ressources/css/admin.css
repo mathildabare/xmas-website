@@ -6,9 +6,7 @@ h1,
 h2,
 h3,
 h4,
-.navbar
-    {
-
+.navbar {
     font-family: 'Lato', 'Arial', sans-serif;
     text-transform: uppercase;
     font-weight: 300;
@@ -16,12 +14,11 @@ h4,
     word-spacing: 8px;
 }
 
-
-.tab-font .nav-link{
+.tab-font .nav-link {
     font-family: 'Lato', 'Arial', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    color:black    ;
+    color: black;
 }
 
 h2 {
@@ -47,8 +44,6 @@ h3 {
     margin-bottom: 20px;
 }
 
-
-
 p,
 label,
 cite,
@@ -70,13 +65,11 @@ section {
     padding: 30px 0 60px 0;
 }
 
-
-.brd-txt-area{
+.brd-txt-area {
     border: 1px solid lightgrey;
-    width:100%;
+    width: 100%;
     border-radius: 5px;
 }
-
 
 /* 
     * NAVBAR
@@ -87,28 +80,20 @@ section {
     font-weight: 400;
 }
 
-
-
 .btn-submit {
     border: 1px solid black;
     background-color: lightgrey;
     font-size: 10pt;
     color: black;
-
 }
-
 
 /* 
  * ADMIN
  * ******************* */
 
-
-
 .gst-icons i:hover {
     color: rgb(94, 94, 94);
 }
-
-
 
 .btn-gestion {
     border: 0;
@@ -116,9 +101,7 @@ section {
     color: black;
 }
 
-
 /** User **/
-
 
 .admin-user {
     background-color: lightgrey;
@@ -136,7 +119,6 @@ section {
     margin: 0 20px;
 }
 
-
 .user-details {
     background-color: rgb(221, 221, 221);
     padding: 20px 20px;
@@ -146,9 +128,7 @@ section {
     text-align: center;
 }
 
-
 /** Blog **/
-
 
 .card-details {
     background-color: rgb(221, 221, 221);
@@ -174,8 +154,6 @@ section {
 
 .card-details h4 {
     font-size: 90%;
-   
-
 }
 
 .card-details h5 {
@@ -187,7 +165,6 @@ section {
     width: 70%;
     height: auto;
     margin-bottom: 20px;
-
 }
 
 .btn-add {
@@ -203,13 +180,11 @@ section {
     color: grey;
 }
 
-
 /** Messages **/
 
 .admin-messages {
     background-color: lightgrey;
 }
-
 
 .messages {
     background-color: white;
@@ -227,7 +202,6 @@ section {
     width: 8%;
     height: auto;
     margin-left: 20%;
-
 }
 
 .messages button {
@@ -247,7 +221,6 @@ footer {
     font-size: 10pt;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 400;
-
 }
 
 footer p {
@@ -266,7 +239,6 @@ footer p {
     margin-right: 30px;
 }
 
-
 .footer-us img {
     max-width: 35%;
     max-height: auto;
@@ -279,7 +251,6 @@ footer p {
     margin-top: 20px;
     margin-left: 90px;
 }
-
 
 .footer-btn {
     display: inline-block;
@@ -294,9 +265,6 @@ footer p {
 }
 
 /** Icons **/
-
-
-
 
 .footer-icons a {
     font-size: 20px;
@@ -316,13 +284,9 @@ footer p {
     text-align: center;
 }
 
-
 .copyright a {
     color: white;
 }
-
-
-
 
 @media screen and (max-width: 640px) {
 
@@ -333,7 +297,6 @@ footer p {
         margin-right: 0;
     }
 
-
     .login {
         margin-left: 0;
     }
@@ -341,5 +304,4 @@ footer p {
     .user-details {
         margin-bottom: 0
     }
-
 }
