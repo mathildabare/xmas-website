@@ -15,7 +15,6 @@ h4,
     word-spacing: 8px;
 }
 
-
 h2 {
     color: black;
     font-size: 250%;
@@ -56,34 +55,25 @@ section {
     padding: 30px 0 60px 0;
 }
 
-
-
-
-
-
- /* 
+/* 
     * NAVBAR
     * ******************* */
- 
-    .navbar-nav {
-        font-family: 'Spartan', 'Arial', sans-serif;
-        font-weight: 400;
-    }
-    
-   
-    
-   .btn-submit{
-       border: 1px solid black;
-       background-color: lightgrey;
-       font-size: 10pt;
-       color: black;
-       
-   }
-   
+
+.navbar-nav {
+    font-family: 'Spartan', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+.btn-submit {
+    border: 1px solid black;
+    background-color: lightgrey;
+    font-size: 10pt;
+    color: black;
+}
+
 /* 
   * BLOG
   * ******************* */
-
 
 .blog {
     text-align: center;
@@ -98,14 +88,11 @@ section {
     margin-top: 30px;
 }
 
-
 /**Cards**/
-
 
 .cards {
     margin-top: 50px;
     margin-bottom: 30px;
-
 }
 
 .all-cards {
@@ -121,7 +108,6 @@ section {
     text-align: center;
 }
 
-
 .card-details:hover {
     transform: translateY(20px);
     background-color: rgb(240, 239, 239);
@@ -136,7 +122,6 @@ section {
 
 .card-details h4 {
     font-size: 100%;
-
 }
 
 .card-details h5 {
@@ -152,8 +137,6 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-
-
 /* 
  * FOOTER
  * ******************* */
@@ -166,7 +149,6 @@ footer {
     font-size: 10pt;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 400;
-
 }
 
 footer p {
@@ -185,7 +167,6 @@ footer p {
     margin-right: 30px;
 }
 
-
 .footer-us img {
     max-width: 35%;
     max-height: auto;
@@ -198,7 +179,6 @@ footer p {
     margin-top: 20px;
     margin-left: 90px;
 }
-
 
 .footer-btn {
     display: inline-block;
@@ -213,9 +193,6 @@ footer p {
 }
 
 /** Icons **/
-
-
-
 
 .footer-icons a {
     font-size: 20px;
@@ -239,10 +216,6 @@ footer p {
     color: white;
 }
 
-
-
-
-
 @media screen and (max-width: 640px) {
 
     .footer-us,
@@ -251,7 +224,6 @@ footer p {
         margin-left: 0;
         margin-right: 0;
     }
-
 
     .login {
         margin-left: 0;
