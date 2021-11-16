@@ -2,83 +2,83 @@
  * GENERAL
  * ******************* */
 
- h1,
- h2,
- h3,
- h4,
- h6,
- .navbar {
- 
-     font-family: 'Lato', 'Arial', sans-serif;
-     text-transform: uppercase;
-     font-weight: 300;
-     letter-spacing: -1px;
-     word-spacing: 8px;
- }
- 
- 
- h2 {
-     color: black;
-     font-size: 250%;
-     text-align: center;
-     margin-top: 40px;
-     margin-bottom: 80px;
- }
- 
- h2::after {
-     display: block;
-     height: 2px;
-     background-color: rgb(162, 29, 29);
-     width: 100px;
-     content: "  ";
-     margin: 0 auto;
-     margin-top: 10px;
- }
- 
- h3 {
-     font-size: 140%;
-     text-align: center;
- }
- 
- p,
- label,
- cite,
- blockquote {
-     font-size: 10pt;
-     font-weight: 300;
-     line-height: 24px;
- }
- 
- h5 {
-     font-family: 'Dancing Script', 'Arial', sans-serif;
-     text-transform: uppercase;
-     font-weight: 500;
-     word-spacing: 8px;
-     text-align: end;
- }
+h1,
+h2,
+h3,
+h4,
+h6,
+.navbar {
 
- section {
-     padding: 30px 0 60px 0;
- }
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: -1px;
+    word-spacing: 8px;
+}
 
- 
- 
- /* 
+
+h2 {
+    color: black;
+    font-size: 250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: rgb(162, 29, 29);
+    width: 100px;
+    content: "  ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 140%;
+    text-align: center;
+}
+
+p,
+label,
+cite,
+blockquote {
+    font-size: 10pt;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+h5 {
+    font-family: 'Dancing Script', 'Arial', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    word-spacing: 8px;
+    text-align: end;
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+
+
+/* 
    * NAVBAR
    * ******************* */
- 
- .navbar-nav {
-     font-family: 'Spartan', 'Arial', sans-serif;
-     font-weight: 400;
- }
- 
- 
-.btn-submit{
+
+.navbar-nav {
+    font-family: 'Spartan', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+
+.btn-submit {
     border: 1px solid black;
     background-color: lightgrey;
     font-size: 10pt;
     color: black;
-    
+
 }
 
 
@@ -86,20 +86,19 @@
  * CONNEXION
  * ******************* */
 
-
-.login{
+.login {
     background-color: lightgrey;
 }
 
-.btn-log{
+.btn-log {
     background-color: lightgrey;
-    border:1px solid grey;
+    border: 1px solid grey;
     border-radius: 3px;
     font-size: 10pt;
-   padding: 7px 15px;
+    padding: 7px 15px;
 }
 
-.btn-log:hover{
+.btn-log:hover {
     background-color: rgb(228, 228, 228);
 }
 
@@ -109,7 +108,7 @@
  * FOOTER
  * ******************* */
 
- footer {
+footer {
     padding-top: 20px;
     background-color: rgb(41, 41, 41);
     color: white;
@@ -165,7 +164,6 @@ footer p {
 
 /** Icons **/
 
-
 .footer-icons a {
     font-size: 20px;
     margin: 0 10px;
@@ -192,8 +190,6 @@ footer p {
 
 @media screen and (max-width: 640px) {
 
-
-
     .footer-us,
     .footer-icons,
     .newsletter {
@@ -211,6 +207,4 @@ footer p {
     .login {
         margin-left: 0;
     }
-
-
 }
