@@ -229,38 +229,41 @@
 
   <!------- ======= MODAL ======-------->
 
-  <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLabel">S'identifier</h3>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="mb-3">
-                        <label class="form-label"></label>
-                        <input type="text" class="form-control" id="username" name="username"
-                            placeholder="Identifiant" />
+        <!--Nav-Login-->
+
+
+        <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">S'identifier</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="mb-3">
-                        <label class="form-label"></label>
-                        <input type="password" class="form-control" id="password" name="password"
-                            placeholder="Mot de passe" />
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label"></label>
+                                <input type="text" class="form-control" id="username" name="username"
+                                    placeholder="Identifiant" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label"></label>
+                                <input type="password" class="form-control" id="password" name="password"
+                                    placeholder="Mot de passe" />
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe" />
+                                <label class="form-check-label" for="rememberMe">Se souvenir de moi</label>
+                            </div>
+                            <div class="modal-footer d-block">
+                                <p class="float-start">Pas encore de compte ? <a class="ms-2" href="/connexion.html">S'enregistrer</a></p>
+                                <button type="submit" class="float-end btn-submit ">Valider</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="rememberMe" />
-                        <label class="form-check-label" for="rememberMe">Se souvenir de moi</label>
-                    </div>
-                    <div class="modal-footer d-block">
-                        <p class="float-start">Pas encore de compte ? <a class="ms-2" href="/connexion.html">S'enregistrer</a></p>
-                        <button type="submit" class="float-end btn-submit ">Valider</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
 
     <!------- ======= SCRIPT ======-------->
