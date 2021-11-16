@@ -94,12 +94,14 @@
 .btn-log{
     background-color: lightgrey;
     border:1px solid grey;
-    margin-top: 40px;
+    border-radius: 3px;
     font-size: 10pt;
-    margin-left: 50px;
+   padding: 7px 15px;
 }
 
-
+.btn-log:hover{
+    background-color: rgb(228, 228, 228);
+}
 
 
 
