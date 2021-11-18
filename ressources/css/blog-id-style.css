@@ -97,7 +97,7 @@ section {
   * ******************* */
 
 .clients {
-    background-color: rgb(213, 213, 213);
+    background-color:lightgrey;
 }
 
 .client-profil {
@@ -132,6 +132,10 @@ section {
     border-radius: 0;
     text-align: center;
     font-size: 9pt;
+}
+
+.form-comment{
+    background-color: lightgrey;
 }
 
 /* 
