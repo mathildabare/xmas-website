@@ -47,6 +47,10 @@ blockquote {
     line-height: 24px;
 }
 
+.form-check label{
+    text-align: left;
+}
+
 h5 {
     font-family: 'Dancing Script', 'Arial', sans-serif;
     text-transform: uppercase;

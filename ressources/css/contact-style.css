@@ -37,7 +37,10 @@ h3 {
     font-size: 160%;
 }
 
-p {
+p,
+label,
+cite,
+blockquote {
     font-size: 10pt;
     font-weight: 300;
     line-height: 24px;
@@ -125,6 +128,9 @@ p {
 .map {
     height: 0;
     overflow: hidden;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .map iframe {
@@ -132,8 +138,20 @@ p {
     height: 100%;
 }
 
+.access {
+    background-color: lightgrey;
+}
+
 .access i {
     color: rgb(181, 29, 29);
+}
+
+.transports {
+    background-color: lightgrey;
+    border: 1px solid grey;
+    width: 50%;
+    padding: 80px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* 
@@ -193,7 +211,8 @@ footer p {
 
 /** Icons **/
 
-.footer-icons a, .footer-icons i {
+.footer-icons a,
+.footer-icons i {
     font-size: 20px;
     margin: 0 10px;
     color: white;
@@ -224,6 +243,9 @@ footer p {
 
     .transports {
         margin-top: 30px;
+        width: 100%;
+        height: auto;
+
     }
 
     /** Footer **/
@@ -239,13 +261,13 @@ footer p {
         margin-left: 0;
     }
 
-.contact-us img{
-    max-width: 100%;
-    max-height: auto;
-}
+    .contact-us img {
+        max-width: 100%;
+        max-height: auto;
+    }
 
-.hogsmeade{
-    margin-top: 20px;
-    padding: 20px;
-}
+    .hogsmeade {
+        margin-top: 20px;
+        padding: 20px;
+    }
 }
