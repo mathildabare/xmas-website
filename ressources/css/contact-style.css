@@ -193,13 +193,13 @@ footer p {
 
 /** Icons **/
 
-.footer-icons a {
+.footer-icons a, .footer-icons i {
     font-size: 20px;
     margin: 0 10px;
     color: white;
 }
 
-.footer-icons a:hover {
+.footer-icons i:hover {
     color: lightgray;
 }
 
