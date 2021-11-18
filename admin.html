@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!---Icons-->
     <script src="https://kit.fontawesome.com/a0d8d6503a.js" crossorigin="anonymous"></script>
-
     <!---font-->
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -27,14 +26,11 @@
 
     <nav class="navbar navbar-light navbar-expand-md fixed-top bg-light">
         <div class="container">
-
             <a class="navbar-brand" href="/home.html">Christmas Events</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#monMenu"
                 aria-controls="monMenu" aria-label="MobileMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-
             <div class="collapse navbar-collapse" id="monMenu">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-item nav-link" href="/home.html">Qui sommes-nous</a>
@@ -52,21 +48,11 @@
 
     <section class="admin container">
         <div class="row">
-            <div class="col-md-12">
-                <h2>admin</h2>
-            </div>
-        </div>
-        <div class="col-md-12">
+            <h2>admin</h2>
             <ul class="nav tab-font">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#user">User</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#messages">Messages</a>
-                </li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#user">User</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#messages">Messages</a></li>
             </ul>
         </div>
     </section>
@@ -163,90 +149,88 @@
 
     <!------- ======= Admin-Blog======-------->
 
-    <section class="admin-blog" id="blog">
-        <div class="container">
-            <div class="row">
-                <h3><i class="fas fa-book"></i> blog</h3>
+    <section class="admin-blog container" id="blog">
+        <div class="row">
+            <h3><i class="fas fa-book"></i> blog</h3>
 
-                <!---Card 1-->
+            <!---Card 1-->
 
-                <div class="col-md-3 mb-3">
-                    <div class="card-details">
-                        <img src="ressources/imgs/cards/lantern.png" alt="">
-                        <h4>Bal de Noël</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sint atque!
-                            Consequuntur reprehenderit ullam amet quidem</p>
-                        <h5>Santa Claus</h5>
-                        <div class="gst-icons">
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#thumb-content-modal">
-                                <i class="fas fa-thumbtack"></i> </button>
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#edit-article-modal">
-                                <i class="fas fa-pencil-alt"></i></button>
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#delete-content-modal">
-                                <i class="fas fa-trash-alt"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!---Card 2-->
-
-                <div class="col-md-3 mb-3">
-                    <div class="card-details">
-                        <img src="ressources/imgs/cards/lantern.png" alt="">
-                        <h4>Bal de Noël</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sint atque!
-                            Consequuntur reprehenderit ullam amet quidem</p>
-                        <h5>Santa Claus</h5>
-                        <div class="gst-icons">
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#thumb-content-modal">
-                                <i class="fas fa-thumbtack"></i> </button>
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#edit-article-modal">
-                                <i class="fas fa-pencil-alt"></i></button>
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#delete-content-modal">
-                                <i class="fas fa-trash-alt"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!---Card 3-->
-
-                <div class="col-md-3 mb-3">
-                    <div class="card-details">
-                        <img src="ressources/imgs/cards/lantern.png" alt="">
-                        <h4>Bal de Noël</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sint atque!
-                            Consequuntur reprehenderit ullam amet quidem</p>
-                        <h5>Santa Claus</h5>
-                        <div class="gst-icons">
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#thumb-content-modal">
-                                <i class="fas fa-thumbtack"></i> </button>
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#edit-article-modal">
-                                <i class="fas fa-pencil-alt"></i></button>
-                            <button type="button" class="btn-gestion" data-bs-toggle="modal"
-                                data-bs-target="#delete-content-modal">
-                                <i class="fas fa-trash-alt"></i> </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!---Card Creation-->
-
-                <div class="col-md-3 mb-3">
-                    <div class="card-details">
-                        <button type="button" class="btn btn-add" data-bs-toggle="modal"
-                            data-bs-target="#create-article-modal"><i class="fas fa-plus"></i>
+            <div class="col-md-3 mb-3">
+                <div class="card-details">
+                    <img src="ressources/imgs/cards/lantern.png" alt="">
+                    <h4>Bal de Noël</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sint atque!
+                        Consequuntur reprehenderit ullam amet quidem</p>
+                    <h5>Santa Claus</h5>
+                    <div class="gst-icons">
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#thumb-content-modal">
+                            <i class="fas fa-thumbtack"></i> </button>
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#edit-article-modal">
+                            <i class="fas fa-pencil-alt"></i></button>
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#delete-content-modal">
+                            <i class="fas fa-trash-alt"></i>
                         </button>
                     </div>
+                </div>
+            </div>
+
+            <!---Card 2-->
+
+            <div class="col-md-3 mb-3">
+                <div class="card-details">
+                    <img src="ressources/imgs/cards/lantern.png" alt="">
+                    <h4>Bal de Noël</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sint atque!
+                        Consequuntur reprehenderit ullam amet quidem</p>
+                    <h5>Santa Claus</h5>
+                    <div class="gst-icons">
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#thumb-content-modal">
+                            <i class="fas fa-thumbtack"></i> </button>
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#edit-article-modal">
+                            <i class="fas fa-pencil-alt"></i></button>
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#delete-content-modal">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!---Card 3-->
+
+            <div class="col-md-3 mb-3">
+                <div class="card-details">
+                    <img src="ressources/imgs/cards/lantern.png" alt="">
+                    <h4>Bal de Noël</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, sint atque!
+                        Consequuntur reprehenderit ullam amet quidem</p>
+                    <h5>Santa Claus</h5>
+                    <div class="gst-icons">
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#thumb-content-modal">
+                            <i class="fas fa-thumbtack"></i> </button>
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#edit-article-modal">
+                            <i class="fas fa-pencil-alt"></i></button>
+                        <button type="button" class="btn-gestion" data-bs-toggle="modal"
+                            data-bs-target="#delete-content-modal">
+                            <i class="fas fa-trash-alt"></i> </button>
+                    </div>
+                </div>
+            </div>
+
+            <!---Card Creation-->
+
+            <div class="col-md-3 mb-3">
+                <div class="card-details">
+                    <button type="button" class="btn btn-add" data-bs-toggle="modal"
+                        data-bs-target="#create-article-modal"><i class="fas fa-plus"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -302,7 +286,6 @@
                             <button type="button" class="btn-gestion" data-bs-toggle="modal"
                                 data-bs-target="#add-comment-modal">
                                 <i class="fas fa-check"></i> </button>
-
                             <button type="button" class="btn-gestion" data-bs-toggle="modal"
                                 data-bs-target="#delete-comment-modal">
                                 <i class="fas fa-trash-alt"></i>
@@ -389,11 +372,7 @@
             </div>
         </div>
         <div class="copyright">
-            <div class="col-md-12">
-                <p> © 2021 Copyright:
-                    <a class="text-white" href="/">xmas-events-hogsmeade.com</a>
-                </p>
-            </div>
+            <p> © 2021 Copyright:<a class="text-white" href="/">xmas-events-hogsmeade.com</a></p>
         </div>
         </div>
     </footer>
@@ -632,7 +611,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-
 </body>
 
 </html>
