@@ -97,6 +97,12 @@ section {
 
 /** Formulaire **/
 
+
+.form h2,
+p {
+    margin-top: 0;
+}
+
 .contact-form {
     margin-bottom: 20px;
 }
@@ -105,12 +111,8 @@ section {
     width: 100%;
 }
 
-.form p {
+.contact {
     text-align: center;
-}
-
-.fa-map-marker-alt {
-    margin-left: 30px;
 }
 
 .contact i {
@@ -118,19 +120,6 @@ section {
     margin-right: 5px;
 }
 
-.btn-contact {
-    background-color: rgb(187, 52, 52);
-    color: white;
-    
-}
-
-.btn-contact:hover {
-    background-color: rgb(214, 91, 91);
-    color: white;
-}
-
-.form {
-    margin: 0 20%;
 }
 
 /** Map **/
@@ -251,4 +240,14 @@ footer p {
     .login {
         margin-left: 0;
     }
+
+.contact-us img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.hogsmeade{
+    margin-top: 20px;
+    padding: 20px;
+}
 }
