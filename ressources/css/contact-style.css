@@ -121,7 +121,7 @@ section {
 .btn-contact {
     background-color: rgb(187, 52, 52);
     color: white;
-    margin-bottom: 20px;
+    
 }
 
 .btn-contact:hover {
@@ -136,21 +136,16 @@ section {
 /** Map **/
 
 .map {
-    position: relative;
-    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
 
 .map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 }
 
-.transports i {
+.access i {
     color: rgb(181, 29, 29);
 }
 

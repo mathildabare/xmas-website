@@ -61,6 +61,88 @@ h5 {
     text-align: end;
 }
 
+.fw-400{
+    font-weight: 400;
+}
+
+/** Buttons **/
+
+.btn-submit {
+    border: 1px solid black;
+    background-color: lightgrey;
+    font-size: 10pt;
+    color: black;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+}
+
+.btn-full {
+    background-color: white;
+    color: grey;
+}
+
+.btn-full:hover {
+    background-color: rgb(189, 189, 189);
+    color: white;
+}
+
+.btn-ghost {
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-ghost:hover {
+    background-color: rgb(189, 189, 189);
+    border: 1px solid rgb(189, 189, 189);
+    color: white;
+}
+
+.btn-card {
+    display: inline-block;
+    color: rgb(44, 44, 44);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+}
+
+.btn-card:hover {
+    color: rgb(44, 44, 44);
+}
+
+.btn-red {
+    background-color: rgb(187, 52, 52);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn-red:hover {
+    background-color: rgb(214, 91, 91);
+    color: white;
+}
+
+.footer-btn {
+    display: inline-block;
+    height: 25px;
+    width: 60px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 10px;
+    font-size: small;
+}
+
+/** Padding & Margin **/
+
 section {
     padding: 30px 0 60px 0;
 }
@@ -72,13 +154,6 @@ section {
 .navbar-nav {
     font-family: 'Spartan', 'Arial', sans-serif;
     font-weight: 400;
-}
-
-.btn-submit {
-    border: 1px solid black;
-    background-color: lightgrey;
-    font-size: 10pt;
-    color: black;
 }
 
 /* 
@@ -120,47 +195,12 @@ header {
     color: white;
 }
 
-/** buttons **/
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: background-color 1s, color 1s, border 1s;
-    margin-bottom: 20px;
-}
 
-.btn-full {
-    background-color: white;
-    color: grey;
-}
-
-.btn-ghost {
-    color: white;
-    border: 1px solid white;
-}
-
-.btn-full:hover {
-    background-color: rgb(189, 189, 189);
-    color: white;
-}
-
-.btn-ghost:hover {
-    background-color: rgb(189, 189, 189);
-    border: 1px solid rgb(189, 189, 189);
-    color: white;
-}
 
 /* 
  * CARDS
  * ******************* */
-
-.cards {
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
 
 .all-cards {
     background-color: white
@@ -204,18 +244,6 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
-.btn-card {
-    display: inline-block;
-    color: rgb(44, 44, 44);
-    border-radius: 10px;
-    text-decoration: none;
-    transition: background-color 1s, color 1s, border 1s;
-    margin-bottom: 20px;
-}
-
-.btn-card:hover {
-    color: rgb(44, 44, 44);
-}
 
 /* 
  * PACKS
@@ -229,11 +257,6 @@ header {
     background-size: cover;
     position: relative;
     margin-bottom: 40px;
-}
-
-.banniere .ban-conditions p {
-    text-align: center;
-    font-weight: 400;
 }
 
 .pack {
@@ -270,16 +293,6 @@ header {
     text-align: center;
 }
 
-.pack-btn {
-    background-color: rgb(187, 52, 52);
-    color: white;
-    margin-bottom: 20px;
-}
-
-.pack-btn:hover {
-    background-color: rgb(214, 91, 91);
-    color: white;
-}
 
 /* 
  * CONTACT
@@ -298,24 +311,13 @@ p {
     width: 100%;
 }
 
-.contact p {
+.contact {
     text-align: center;
 }
 
 .contact i {
     color: rgb(187, 52, 52);
     margin-right: 5px;
-}
-
-.btn-contact {
-    background-color: rgb(187, 52, 52);
-    color: white;
-    margin-bottom: 20px;
-}
-
-.btn-contact:hover {
-    background-color: rgb(214, 91, 91);
-    color: white;
 }
 
 .map {
@@ -331,10 +333,6 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.transports small {
-    font-size: 7pt;
 }
 
 /* 
