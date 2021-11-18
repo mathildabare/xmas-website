@@ -120,6 +120,8 @@ p {
     margin-right: 5px;
 }
 
+.disabled-opt{
+    color:grey;
 }
 
 /** Map **/
