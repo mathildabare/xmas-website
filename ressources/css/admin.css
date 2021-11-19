@@ -96,7 +96,7 @@ section {
  * ******************* */
 
 .bg-grey {
-    background-color: grey;
+    background-color: rgb(151, 151, 151);
 }
 
 .admin-hp img {
@@ -127,7 +127,7 @@ section {
 }
 
 .admin-bio h4 span {
-    color: rgb(21, 184, 21);
+    color: rgb(57, 201, 57);
     font-weight: bold;
 }
 
