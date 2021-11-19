@@ -10,7 +10,8 @@
     <!---font-->
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Ephesis&display=swap"
         rel="stylesheet">
     <!---style-->
@@ -52,10 +53,15 @@
                 <h2>admin</h2>
                 <div class="col-md-5">
                     <img src="ressources/imgs/comments/slytherin.jpg" alt="">
+                    <form>
+                        <div class="form-group">
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    </form>
                 </div>
-                <div class="admin-bio col-md-5">
-                    <p>Status: <span>Active</span></p>
-                    <p>real name : Arata Shiingyôji</p>
+                <div class="admin-bio mt-5 col-md-5">
+                    <h3>Bienvenue, <span>Arata Shingyôji</span></h3>
+                    <h4>Status: <span>Active</span></h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo rerum porro rem assumenda.
                         Exercitationem dolor fugit expedita id cum. Itaque perferendis, tempora
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque repudiandae ea eaque vel et
@@ -70,6 +76,9 @@
                         eligendi
                         cum fugiat voluptatem autem possimus?
                     </p>
+                    <button type="button" class="btn float-end" data-bs-toggle="modal"
+                        data-bs-target="#modify-bio-modal"><i class="fas fa-pencil-alt"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -640,6 +649,33 @@
             </div>
         </div>
     </div>
+
+    <!--Description Modification-->
+
+    <div class="modal fade" id="modify-bio-modal" tabindex="-1" aria-labelledby="edituserlabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Modifier la biographie</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="connection d-flex justify-content-center flex-column">
+                        <div class="mb-3 element-form">
+                            <label for="input-email" class="form-label"></label>
+                            <textarea class="brd-txt-area" name="" id="" cols="30" rows="10"
+                                placeholder=" Écrire la biographie . . ."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-off" data-bs-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-on">Confirmer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--Déconnexion-->
 
