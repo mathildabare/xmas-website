@@ -126,13 +126,8 @@ header {
 
 
 
-
-
-
-
-
 /* 
- * CONTACT
+ * Infos Hogsmeade
  * ******************* */
 
 .contact-us {
@@ -141,7 +136,7 @@ header {
 }
 
 .contact-us-img {
-    max-width: 80%;
+    max-width: 100%;
     min-height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border: 1px solid grey;
@@ -150,72 +145,14 @@ header {
 
 .hogsmeade {
     background-color: lightgrey;
-    border: 1px solid grey;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
-}
-
-/** Formulaire **/
-
-
-.form h2,
-p {
-    margin-top: 0;
-}
-
-.contact-form {
-    margin-bottom: 20px;
-}
-
-.contact-message {
-    width: 100%;
-}
-
-.contact {
-    text-align: center;
-}
-
-.contact i {
-    color: rgb(187, 52, 52);
-    margin-right: 5px;
-}
-
-/** Map **/
-
-.map {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-    border: 1px solid grey;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    max-width: 100%;
 
 }
 
-.map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
-
-.access {
-    background-color: lightgrey;
-}
-
-.access i {
-    color: rgb(181, 29, 29);
-}
-
-.transports {
-    background-color: lightgrey;
-    border: 1px solid grey;
-    width: 50%;
-    padding: 80px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
 
 /* 
  * FOOTER

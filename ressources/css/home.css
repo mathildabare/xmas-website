@@ -168,6 +168,11 @@ section {
     font-weight: 400;
 }
 
+.selectpicker{
+    border: none;
+    border-radius: 5px;
+}
+
 /* 
  * HEADER
  * ******************* */
