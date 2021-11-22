@@ -150,6 +150,28 @@ p {
     margin-right: 5px;
 }
 
+.basic-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.btn-red {
+    background-color: rgb(187, 52, 52);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn-red:hover {
+    background-color: rgb(214, 91, 91);
+    color: white;
+}
+
 /** Map **/
 
 .map {

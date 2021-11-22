@@ -47,7 +47,8 @@ h3 {
     font-size: 160%;
 }
 
-p, label {
+p,
+label {
     font-size: 10pt;
     font-weight: 300;
     line-height: 24px;
@@ -61,7 +62,7 @@ h5 {
     text-align: end;
 }
 
-.fw-400{
+.fw-400 {
     font-weight: 400;
 }
 
@@ -168,7 +169,7 @@ section {
     font-weight: 400;
 }
 
-.selectpicker{
+.selectpicker {
     border: none;
     border-radius: 5px;
 }
@@ -194,6 +195,10 @@ header {
     position: absolute;
     top: 20%;
     width: auto;
+}
+
+.homeTitle a {
+    margin: 0 5px;
 }
 
 .homeTitle h1 {
@@ -266,14 +271,15 @@ header {
  * BANNIERE
  * ******************* */
 
- .carousel-item {
+.carousel-item {
     height: 25vh;
     min-height: 400px;
     background: no-repeat center center scroll;
-    }
+}
 
 
-.carousel-item h3, h4{
+.carousel-item h3,
+h4 {
     font-weight: 400;
 }
 
@@ -307,6 +313,7 @@ header {
     top: -15px;
     left: 5px;
 }
+
 .pack-span {
     font-weight: 400;
     font-size: 50%;
@@ -448,12 +455,88 @@ footer p {
         width: 60%;
     }
 
+    .homeTitle a {
+        margin: 5px 0;
+    }
+
     .footer-us,
     .footer-icons,
     .newsletter {
         margin-left: 0;
         margin-right: 0;
     }
+
+    /** Carousel **/
+
+
+    .carousel-item {
+        max-height: 35vh;
+    }
+
+    .carousel-item h3,
+    h4 {
+        font-weight: 400;
+    }
+
+    .carousel-item h2 {
+        font-size: 120%;
+    }
+
+    .pack {
+
+        margin-bottom: 10px;
+        background-color: white;
+    }
+
+    .pack h3 {
+        font-weight: 400;
+        color: rgb(162, 29, 29);
+        max-height: 5px;
+        font-size: 9pt;
+    }
+
+    .pack h4 {
+        font-weight: 100;
+        font-size: 150%;
+    }
+
+    .pack-title {
+        padding: 10px 10px 0 10px;
+        position: relative;
+    }
+
+    .pack-span {
+        font-weight: 400;
+        font-size: 40%;
+        position: relative;
+        top: -10px;
+        left: 5px;
+    }
+
+    .btn-red {
+        background-color: rgb(187, 52, 52);
+        color: white;
+        margin-bottom: 20px;
+        max-height: 25px;
+        max-width: auto;
+    font-size: 8pt;
+text-align: center;}
+    
+
+    .carousel-item h3,
+    h4 {
+        font-size: 110%;
+    }
+
+    .pack-title h4 {
+        margin-top: 20px;
+    }
+
+    .ban-conditions small {
+        font-size: 6pt;
+    }
+
+/** Icons **/
 
     .login {
         margin-left: 0;

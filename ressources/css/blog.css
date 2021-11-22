@@ -122,12 +122,6 @@ header {
     color: white;
 }
 
-
-
-
-
-
-
 /* 
   * BLOG
   * ******************* */
@@ -143,6 +137,22 @@ header {
 
 .search-input {
     margin-top: 30px;
+}
+
+.search-input input {
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.btn-blog {
+    border: 1px solid grey;
+    background-color: rgb(172, 171, 171);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.btn-blog:hover {
+    background-color: rgb(180, 180, 180);
 }
 
 /**Cards**/
