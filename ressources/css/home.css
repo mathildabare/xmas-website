@@ -307,6 +307,13 @@ header {
     top: -15px;
     left: 5px;
 }
+.pack-span {
+    font-weight: 400;
+    font-size: 50%;
+    position: relative;
+    top: -10px;
+    left: 5px;
+}
 
 .pack-signup {
     text-align: center;
